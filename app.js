@@ -8,7 +8,7 @@ const port = process.env.PORT || 3001;
 
 const app = express();
 
-mongoose.connect("mongodb+srv://sachanashutosh15:Ashutosh_99@cluster0.agcck.mongodb.net/KoinX?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://sachanashutosh15:<password>@cluster0.agcck.mongodb.net/KoinX?retryWrites=true&w=majority")
 .then(() => {
    console.log("Successfully connected to database")
 })
