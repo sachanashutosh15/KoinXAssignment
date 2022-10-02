@@ -54,7 +54,7 @@ setInterval(async () => {
       {$set: { cryptoPrice: etherPriceInfo.ethereum.inr }})
       console.log(result);
    }
-}, 20000);
+}, 10 * 60 * 1000);
 
 app.post("/getTxnList", async (req, res) => {
    const { userAddress } = req.body;
